@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		BB8D04E4256839A700145BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D04E3256839A700145BCC /* AppDelegate.swift */; };
 		BB8D04E6256839A700145BCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D04E5256839A700145BCC /* SceneDelegate.swift */; };
-		BB8D04E8256839A700145BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D04E7256839A700145BCC /* ViewController.swift */; };
-		BB8D04EB256839A700145BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8D04E9256839A700145BCC /* Main.storyboard */; };
 		BB8D04ED256839A800145BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB8D04EC256839A800145BCC /* Assets.xcassets */; };
 		BB8D04F0256839A800145BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8D04EE256839A800145BCC /* LaunchScreen.storyboard */; };
 		BB8D04FB256839A800145BCC /* RizulBaseProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D04FA256839A800145BCC /* RizulBaseProjectTests.swift */; };
 		BB8D0506256839A800145BCC /* RizulBaseProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D0505256839A800145BCC /* RizulBaseProjectUITests.swift */; };
+		BB8D051D256839D400145BCC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D051C256839D400145BCC /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +37,6 @@
 		BB8D04E0256839A700145BCC /* RizulBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RizulBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8D04E3256839A700145BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB8D04E5256839A700145BCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB8D04E7256839A700145BCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BB8D04EA256839A700145BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB8D04EC256839A800145BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB8D04EF256839A800145BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB8D04F1256839A800145BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		BB8D0501256839A800145BCC /* RizulBaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RizulBaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8D0505256839A800145BCC /* RizulBaseProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RizulBaseProjectUITests.swift; sourceTree = "<group>"; };
 		BB8D0507256839A800145BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB8D051C256839D400145BCC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +99,10 @@
 			children = (
 				BB8D04E3256839A700145BCC /* AppDelegate.swift */,
 				BB8D04E5256839A700145BCC /* SceneDelegate.swift */,
-				BB8D04E7256839A700145BCC /* ViewController.swift */,
-				BB8D04E9256839A700145BCC /* Main.storyboard */,
 				BB8D04EC256839A800145BCC /* Assets.xcassets */,
 				BB8D04EE256839A800145BCC /* LaunchScreen.storyboard */,
 				BB8D04F1256839A800145BCC /* Info.plist */,
+				BB8D051C256839D400145BCC /* FirstViewController.swift */,
 			);
 			path = RizulBaseProject;
 			sourceTree = "<group>";
@@ -233,7 +230,6 @@
 			files = (
 				BB8D04F0256839A800145BCC /* LaunchScreen.storyboard in Resources */,
 				BB8D04ED256839A800145BCC /* Assets.xcassets in Resources */,
-				BB8D04EB256839A700145BCC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB8D04E8256839A700145BCC /* ViewController.swift in Sources */,
+				BB8D051D256839D400145BCC /* FirstViewController.swift in Sources */,
 				BB8D04E4256839A700145BCC /* AppDelegate.swift in Sources */,
 				BB8D04E6256839A700145BCC /* SceneDelegate.swift in Sources */,
 			);
@@ -296,14 +292,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BB8D04E9256839A700145BCC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB8D04EA256839A700145BCC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BB8D04EE256839A800145BCC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

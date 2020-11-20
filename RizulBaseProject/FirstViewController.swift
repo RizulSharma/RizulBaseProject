@@ -1,19 +1,14 @@
 //
-//  ViewController.swift
+//  FirstViewController.swift
 //  RizulBaseProject
 //
 //  Created by Rizul Sharma on 20/11/20.
 //
 
 import UIKit
-
-class ViewController: UIViewController {
-
+class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = .systemIndigo
     }
-
-
 }
-

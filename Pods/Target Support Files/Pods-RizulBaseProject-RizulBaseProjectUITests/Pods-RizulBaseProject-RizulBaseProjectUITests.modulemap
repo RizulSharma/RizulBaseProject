@@ -1,0 +1,6 @@
+framework module Pods_RizulBaseProject_RizulBaseProjectUITests {
+  umbrella header "Pods-RizulBaseProject-RizulBaseProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

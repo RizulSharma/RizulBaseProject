@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		428E6F313CE38C5204A00983 /* Pods_RizulBaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51DBB0D2FE33837D2D075402 /* Pods_RizulBaseProject.framework */; };
+		8A50CDE964CE1FEE2DFCF853 /* Pods_RizulBaseProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9AD06E6835B532B92EC127 /* Pods_RizulBaseProjectTests.framework */; };
 		BB8D04E4256839A700145BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D04E3256839A700145BCC /* AppDelegate.swift */; };
 		BB8D04E6256839A700145BCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D04E5256839A700145BCC /* SceneDelegate.swift */; };
 		BB8D04ED256839A800145BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB8D04EC256839A800145BCC /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		BB8D04FB256839A800145BCC /* RizulBaseProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D04FA256839A800145BCC /* RizulBaseProjectTests.swift */; };
 		BB8D0506256839A800145BCC /* RizulBaseProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D0505256839A800145BCC /* RizulBaseProjectUITests.swift */; };
 		BB8D051D256839D400145BCC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D051C256839D400145BCC /* FirstViewController.swift */; };
+		C6D242E5E6B286F956505100 /* Pods_RizulBaseProject_RizulBaseProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52CD239D30F0DBAA1FF99A1 /* Pods_RizulBaseProject_RizulBaseProjectUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C9AD06E6835B532B92EC127 /* Pods_RizulBaseProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RizulBaseProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E30F779E71A10B8936EADD9 /* Pods-RizulBaseProject-RizulBaseProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RizulBaseProject-RizulBaseProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-RizulBaseProject-RizulBaseProjectUITests/Pods-RizulBaseProject-RizulBaseProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51DBB0D2FE33837D2D075402 /* Pods_RizulBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RizulBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B47163EE4117548FE7EA75 /* Pods-RizulBaseProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RizulBaseProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-RizulBaseProjectTests/Pods-RizulBaseProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9987E5DC0BE257E27F13844F /* Pods-RizulBaseProject-RizulBaseProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RizulBaseProject-RizulBaseProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-RizulBaseProject-RizulBaseProjectUITests/Pods-RizulBaseProject-RizulBaseProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B921DE7D4C0413FC5A377AE1 /* Pods-RizulBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RizulBaseProject.release.xcconfig"; path = "Target Support Files/Pods-RizulBaseProject/Pods-RizulBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		BB8D04E0256839A700145BCC /* RizulBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RizulBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8D04E3256839A700145BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB8D04E5256839A700145BCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		BB8D0505256839A800145BCC /* RizulBaseProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RizulBaseProjectUITests.swift; sourceTree = "<group>"; };
 		BB8D0507256839A800145BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB8D051C256839D400145BCC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C52CD239D30F0DBAA1FF99A1 /* Pods_RizulBaseProject_RizulBaseProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RizulBaseProject_RizulBaseProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E6A1EABA9A28691006C819 /* Pods-RizulBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RizulBaseProject.debug.xcconfig"; path = "Target Support Files/Pods-RizulBaseProject/Pods-RizulBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		FAF41D15495F52C8B29EDEAC /* Pods-RizulBaseProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RizulBaseProjectTests.release.xcconfig"; path = "Target Support Files/Pods-RizulBaseProjectTests/Pods-RizulBaseProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428E6F313CE38C5204A00983 /* Pods_RizulBaseProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A50CDE964CE1FEE2DFCF853 /* Pods_RizulBaseProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D242E5E6B286F956505100 /* Pods_RizulBaseProject_RizulBaseProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		237F47554F4CCE7588D2221A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6E6A1EABA9A28691006C819 /* Pods-RizulBaseProject.debug.xcconfig */,
+				B921DE7D4C0413FC5A377AE1 /* Pods-RizulBaseProject.release.xcconfig */,
+				1E30F779E71A10B8936EADD9 /* Pods-RizulBaseProject-RizulBaseProjectUITests.debug.xcconfig */,
+				9987E5DC0BE257E27F13844F /* Pods-RizulBaseProject-RizulBaseProjectUITests.release.xcconfig */,
+				82B47163EE4117548FE7EA75 /* Pods-RizulBaseProjectTests.debug.xcconfig */,
+				FAF41D15495F52C8B29EDEAC /* Pods-RizulBaseProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A46B78C3B4AA0C9FD69DAA60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51DBB0D2FE33837D2D075402 /* Pods_RizulBaseProject.framework */,
+				C52CD239D30F0DBAA1FF99A1 /* Pods_RizulBaseProject_RizulBaseProjectUITests.framework */,
+				0C9AD06E6835B532B92EC127 /* Pods_RizulBaseProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BB8D04D7256839A700145BCC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				BB8D04F9256839A800145BCC /* RizulBaseProjectTests */,
 				BB8D0504256839A800145BCC /* RizulBaseProjectUITests */,
 				BB8D04E1256839A700145BCC /* Products */,
+				237F47554F4CCE7588D2221A /* Pods */,
+				A46B78C3B4AA0C9FD69DAA60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB8D050A256839A800145BCC /* Build configuration list for PBXNativeTarget "RizulBaseProject" */;
 			buildPhases = (
+				FBD86CC07C511B8B323E1408 /* [CP] Check Pods Manifest.lock */,
 				BB8D04DC256839A700145BCC /* Sources */,
 				BB8D04DD256839A700145BCC /* Frameworks */,
 				BB8D04DE256839A700145BCC /* Resources */,
+				2120B54189CFE75A77420BDC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB8D050D256839A800145BCC /* Build configuration list for PBXNativeTarget "RizulBaseProjectTests" */;
 			buildPhases = (
+				A01848196E45E4A88F93D535 /* [CP] Check Pods Manifest.lock */,
 				BB8D04F2256839A800145BCC /* Sources */,
 				BB8D04F3256839A800145BCC /* Frameworks */,
 				BB8D04F4256839A800145BCC /* Resources */,
@@ -167,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB8D0510256839A800145BCC /* Build configuration list for PBXNativeTarget "RizulBaseProjectUITests" */;
 			buildPhases = (
+				A618E079CD136CCA8366DB7D /* [CP] Check Pods Manifest.lock */,
 				BB8D04FD256839A800145BCC /* Sources */,
 				BB8D04FE256839A800145BCC /* Frameworks */,
 				BB8D04FF256839A800145BCC /* Resources */,
+				4D47C02BE784CE03F2F075E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +294,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2120B54189CFE75A77420BDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RizulBaseProject/Pods-RizulBaseProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RizulBaseProject/Pods-RizulBaseProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RizulBaseProject/Pods-RizulBaseProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D47C02BE784CE03F2F075E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RizulBaseProject-RizulBaseProjectUITests/Pods-RizulBaseProject-RizulBaseProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RizulBaseProject-RizulBaseProjectUITests/Pods-RizulBaseProject-RizulBaseProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RizulBaseProject-RizulBaseProjectUITests/Pods-RizulBaseProject-RizulBaseProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01848196E45E4A88F93D535 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RizulBaseProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A618E079CD136CCA8366DB7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RizulBaseProject-RizulBaseProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD86CC07C511B8B323E1408 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RizulBaseProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB8D04DC256839A700145BCC /* Sources */ = {
@@ -421,6 +570,7 @@
 		};
 		BB8D050B256839A800145BCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E6A1EABA9A28691006C819 /* Pods-RizulBaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,6 +589,7 @@
 		};
 		BB8D050C256839A800145BCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B921DE7D4C0413FC5A377AE1 /* Pods-RizulBaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -457,6 +608,7 @@
 		};
 		BB8D050E256839A800145BCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B47163EE4117548FE7EA75 /* Pods-RizulBaseProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +630,7 @@
 		};
 		BB8D050F256839A800145BCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF41D15495F52C8B29EDEAC /* Pods-RizulBaseProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +652,7 @@
 		};
 		BB8D0511256839A800145BCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E30F779E71A10B8936EADD9 /* Pods-RizulBaseProject-RizulBaseProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -518,6 +672,7 @@
 		};
 		BB8D0512256839A800145BCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9987E5DC0BE257E27F13844F /* Pods-RizulBaseProject-RizulBaseProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

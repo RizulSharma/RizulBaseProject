@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		BB8D04FB256839A800145BCC /* RizulBaseProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D04FA256839A800145BCC /* RizulBaseProjectTests.swift */; };
 		BB8D0506256839A800145BCC /* RizulBaseProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D0505256839A800145BCC /* RizulBaseProjectUITests.swift */; };
 		BB8D051D256839D400145BCC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D051C256839D400145BCC /* FirstViewController.swift */; };
+		BB8D052A256844E400145BCC /* CustomToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D0529256844E400145BCC /* CustomToast.swift */; };
 		C6D242E5E6B286F956505100 /* Pods_RizulBaseProject_RizulBaseProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52CD239D30F0DBAA1FF99A1 /* Pods_RizulBaseProject_RizulBaseProjectUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		BB8D0505256839A800145BCC /* RizulBaseProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RizulBaseProjectUITests.swift; sourceTree = "<group>"; };
 		BB8D0507256839A800145BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB8D051C256839D400145BCC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		BB8D0529256844E400145BCC /* CustomToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToast.swift; sourceTree = "<group>"; };
 		C52CD239D30F0DBAA1FF99A1 /* Pods_RizulBaseProject_RizulBaseProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RizulBaseProject_RizulBaseProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E6A1EABA9A28691006C819 /* Pods-RizulBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RizulBaseProject.debug.xcconfig"; path = "Target Support Files/Pods-RizulBaseProject/Pods-RizulBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		FAF41D15495F52C8B29EDEAC /* Pods-RizulBaseProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RizulBaseProjectTests.release.xcconfig"; path = "Target Support Files/Pods-RizulBaseProjectTests/Pods-RizulBaseProjectTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,7 +101,6 @@
 				82B47163EE4117548FE7EA75 /* Pods-RizulBaseProjectTests.debug.xcconfig */,
 				FAF41D15495F52C8B29EDEAC /* Pods-RizulBaseProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,6 +139,7 @@
 		BB8D04E2256839A700145BCC /* RizulBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				BB8D0528256844D000145BCC /* UIViewHelpers */,
 				BB8D04E3256839A700145BCC /* AppDelegate.swift */,
 				BB8D04E5256839A700145BCC /* SceneDelegate.swift */,
 				BB8D04EC256839A800145BCC /* Assets.xcassets */,
@@ -164,6 +166,14 @@
 				BB8D0507256839A800145BCC /* Info.plist */,
 			);
 			path = RizulBaseProjectUITests;
+			sourceTree = "<group>";
+		};
+		BB8D0528256844D000145BCC /* UIViewHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				BB8D0529256844E400145BCC /* CustomToast.swift */,
+			);
+			path = UIViewHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +415,7 @@
 			files = (
 				BB8D051D256839D400145BCC /* FirstViewController.swift in Sources */,
 				BB8D04E4256839A700145BCC /* AppDelegate.swift in Sources */,
+				BB8D052A256844E400145BCC /* CustomToast.swift in Sources */,
 				BB8D04E6256839A700145BCC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

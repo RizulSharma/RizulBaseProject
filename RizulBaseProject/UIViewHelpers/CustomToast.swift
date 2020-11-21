@@ -20,7 +20,7 @@ class CustomToast {
         case bottom
     }
     
-    static func show(message: String, backGroundColor: UIColor, showIn: ShowIn, textColor: UIColor, controller: UIViewController) {
+    static func show(message: String, backGroundColor: UIColor, position: ShowIn, textColor: UIColor, controller: UIViewController) {
         
         let toastContainer = UIView(backgroundColor: backGroundColor.withAlphaComponent(0.6))
         toastContainer.alpha = 0.0
@@ -37,7 +37,7 @@ class CustomToast {
         controller.view.addSubview(toastContainer)
         let c1 = NSLayoutConstraint(item: toastContainer, attribute: .leading, relatedBy: .equal, toItem: controller.view, attribute: .leading, multiplier: 1, constant: 65)
         let c2 = NSLayoutConstraint(item: toastContainer, attribute: .trailing, relatedBy: .equal, toItem: controller.view, attribute: .trailing, multiplier: 1, constant: -65)
-        let c3 = NSLayoutConstraint(item: toastContainer, attribute: (showIn == .top) ? .top: .bottom, relatedBy: .equal, toItem: controller.view, attribute: (showIn == .top) ? .top: .bottom, multiplier: 1, constant: (showIn == .top) ? 75: -75)
+        let c3 = NSLayoutConstraint(item: toastContainer, attribute: (position == .top) ? .top: .bottom, relatedBy: .equal, toItem: controller.view, attribute: (position == .top) ? .top: .bottom, multiplier: 1, constant: (position == .top) ? 75: -75)
 
         controller.view.addConstraints([c1, c2, c3])
         

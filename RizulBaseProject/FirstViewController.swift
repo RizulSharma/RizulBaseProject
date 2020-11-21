@@ -11,7 +11,8 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = .systemIndigo
+        self.view.backgroundColor = .magenta
+        
         
     }
 }
